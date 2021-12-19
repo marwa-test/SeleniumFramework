@@ -79,9 +79,9 @@ public class AmazonTest extends TestBase {
 		CP= new CartPage(driver);
 		Thread.sleep(5000);
 		CP.DeleteFromTheCart();
-		Assert.assertTrue(CP.itemincart.getText().equals("Samsung Tab A7 Lite 8.7\" Gray 32GB (SM-T220NZAAXAR) was removed from Shopping Cart."));
+		Assert.assertTrue(CP.removemessage.getText().equals("Samsung Tab A7 Lite 8.7\" Gray 32GB (SM-T220NZAAXAR) was removed from Shopping Cart."));
 		
-	////span[@class='a-truncate-cut']
+	
 	
 
 	

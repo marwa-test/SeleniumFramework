@@ -27,12 +27,12 @@ public class TestBase {
 		 driver.navigate().to("https://www.amazon.com/");
 	}
 
-	//@AfterSuite
-	//public void stopDriver()
-	//{
-		//driver.quit();
+	@AfterSuite
+	public void stopDriver()
+	{
+		driver.quit();
 
-	//}
+	}
 
 
 
